@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 22, 2016, 8:09:33 PM
+    Author     : abarnes
+*/
+h1 {
+    font-family: "Trajan";
+}
+
+img {
+    height: 90px;
+}
+
+.login {
+   position:absolute;
+   top:0;
+   right:0;
+   padding-right: 2em;
+}
+.admin{
+    top:0;
+    right:0;
+    float: right;
+}
+body {
+        padding: 40px;
+	border-style: double;
+        border-width: 5px;
+        border-color: cadetblue;
+}
+table {
+    max-width: 150px;
+}
+
+input.text {
+    width: 50%;
+}
+
+input.button {
+    width: 25%;
+    margin-bottom: 2em;
+}
+
+th, td {
+    max-width: 110px;
+    height: 50px;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+nav ol li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 2em;
+}
